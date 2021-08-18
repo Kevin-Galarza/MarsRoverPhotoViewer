@@ -1,0 +1,25 @@
+{
+  "photo_manifest": {
+    "name": "Opportunity",
+    "landing_date": "2004-01-25",
+    "launch_date": "2003-07-07",
+    "status": "complete",
+    "max_sol": 5111,
+    "max_date": "2018-06-11",
+    "total_photos": 198439,
+    "photos": [
+      {
+        "sol": 1,
+        "earth_date": "2004-01-26",
+        "total_photos": 95,
+        "cameras": [
+          "ENTRY",
+          "FHAZ",
+          "NAVCAM",
+          "PANCAM",
+          "RHAZ"
+        ]
+      }
+    ]
+  }
+}

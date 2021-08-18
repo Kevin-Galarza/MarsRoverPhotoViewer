@@ -7,19 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180544E626CC113600777697 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544E526CC113600777697 /* SearchDetailView.swift */; };
+		180544E926CC244400777697 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544E826CC244400777697 /* AsyncImage.swift */; };
+		180544EB26CC252500777697 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544EA26CC252500777697 /* EnvironmentValues+ImageCache.swift */; };
+		180544ED26CC254600777697 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544EC26CC254600777697 /* ImageCache.swift */; };
+		180544EF26CC257500777697 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544EE26CC257500777697 /* ImageLoader.swift */; };
+		180544F126CC823E00777697 /* SearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544F026CC823E00777697 /* SearchViewModelTests.swift */; };
+		180544F326CC847900777697 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544F226CC847900777697 /* NetworkManagerProtocol.swift */; };
+		180544F526CC880A00777697 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180544F426CC880A00777697 /* MockNetworkManager.swift */; };
+		183CE65126C204E30064119A /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CE65026C204E30064119A /* PhotoTests.swift */; };
+		183CE65326C2068B0064119A /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 183CE65226C2068B0064119A /* photos.json */; };
+		1882B07126CB37750099DF96 /* SearchDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882B07026CB37750099DF96 /* SearchDetailViewModel.swift */; };
+		18841F8B26C9A3AA00E05B42 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18841F8A26C9A3AA00E05B42 /* NetworkManager.swift */; };
+		18B848E926C9876B00C5718B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B848E826C9876B00C5718B /* APIClient.swift */; };
+		18BE866426CAB6620005A04F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE866326CAB6620005A04F /* SearchViewModel.swift */; };
 		18FFAFBE26C175CA00AA7767 /* MarsRoverPhotoViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFBD26C175CA00AA7767 /* MarsRoverPhotoViewerApp.swift */; };
-		18FFAFC026C175CA00AA7767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFBF26C175CA00AA7767 /* ContentView.swift */; };
+		18FFAFC026C175CA00AA7767 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFBF26C175CA00AA7767 /* SearchView.swift */; };
 		18FFAFC226C175CB00AA7767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FFAFC126C175CB00AA7767 /* Assets.xcassets */; };
 		18FFAFC526C175CB00AA7767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FFAFC426C175CB00AA7767 /* Preview Assets.xcassets */; };
+		18FFAFCF26C175EB00AA7767 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFCE26C175EB00AA7767 /* Rover.swift */; };
+		18FFAFD126C175F300AA7767 /* CameraIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFD026C175F300AA7767 /* CameraIdentifier.swift */; };
+		18FFAFD326C175FD00AA7767 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFD226C175FD00AA7767 /* Mission.swift */; };
+		18FFAFD526C1760300AA7767 /* PhotoManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFD426C1760300AA7767 /* PhotoManifest.swift */; };
+		18FFAFD726C1760A00AA7767 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFD626C1760A00AA7767 /* Photo.swift */; };
+		18FFAFE726C1897C00AA7767 /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFE626C1897C00AA7767 /* PhotoList.swift */; };
+		18FFAFE926C18AE600AA7767 /* PhotoManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFE826C18AE600AA7767 /* PhotoManifestTests.swift */; };
+		18FFAFEB26C18C4200AA7767 /* mission.json in Resources */ = {isa = PBXBuildFile; fileRef = 18FFAFEA26C18C4200AA7767 /* mission.json */; };
+		18FFAFED26C1C4DE00AA7767 /* MissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFEC26C1C4DE00AA7767 /* MissionTests.swift */; };
+		18FFAFEF26C1C51B00AA7767 /* ModelTestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFAFEE26C1C51B00AA7767 /* ModelTestsHelper.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18FFAFE126C1762100AA7767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FFAFB226C175CA00AA7767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FFAFB926C175CA00AA7767;
+			remoteInfo = MarsRoverPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		180544E526CC113600777697 /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
+		180544E826CC244400777697 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		180544EA26CC252500777697 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		180544EC26CC254600777697 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		180544EE26CC257500777697 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		180544F026CC823E00777697 /* SearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelTests.swift; sourceTree = "<group>"; };
+		180544F226CC847900777697 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		180544F426CC880A00777697 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		183CE65026C204E30064119A /* PhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
+		183CE65226C2068B0064119A /* photos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		1882B07026CB37750099DF96 /* SearchDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewModel.swift; sourceTree = "<group>"; };
+		18841F8A26C9A3AA00E05B42 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18B848E826C9876B00C5718B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		18BE866326CAB6620005A04F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		18FFAFBA26C175CA00AA7767 /* MarsRoverPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRoverPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFAFBD26C175CA00AA7767 /* MarsRoverPhotoViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverPhotoViewerApp.swift; sourceTree = "<group>"; };
-		18FFAFBF26C175CA00AA7767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18FFAFBF26C175CA00AA7767 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		18FFAFC126C175CB00AA7767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18FFAFC426C175CB00AA7767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18FFAFC626C175CB00AA7767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FFAFCE26C175EB00AA7767 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
+		18FFAFD026C175F300AA7767 /* CameraIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraIdentifier.swift; sourceTree = "<group>"; };
+		18FFAFD226C175FD00AA7767 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		18FFAFD426C1760300AA7767 /* PhotoManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManifest.swift; sourceTree = "<group>"; };
+		18FFAFD626C1760A00AA7767 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		18FFAFDC26C1762100AA7767 /* MarsRoverPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FFAFE026C1762100AA7767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FFAFE626C1897C00AA7767 /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		18FFAFE826C18AE600AA7767 /* PhotoManifestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManifestTests.swift; sourceTree = "<group>"; };
+		18FFAFEA26C18C4200AA7767 /* mission.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mission.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		18FFAFEC26C1C4DE00AA7767 /* MissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTests.swift; sourceTree = "<group>"; };
+		18FFAFEE26C1C51B00AA7767 /* ModelTestsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTestsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +90,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18FFAFD926C1762100AA7767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180544E726CC23A500777697 /* AsyncImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				180544E826CC244400777697 /* AsyncImage.swift */,
+				180544EA26CC252500777697 /* EnvironmentValues+ImageCache.swift */,
+				180544EC26CC254600777697 /* ImageCache.swift */,
+				180544EE26CC257500777697 /* ImageLoader.swift */,
+			);
+			path = AsyncImageLoader;
+			sourceTree = "<group>";
+		};
+		180544F626CC8A2900777697 /* ThirdPartyUtils */ = {
+			isa = PBXGroup;
+			children = (
+				180544E726CC23A500777697 /* AsyncImageLoader */,
+			);
+			path = ThirdPartyUtils;
+			sourceTree = "<group>";
+		};
+		180544F726CCAF9500777697 /* JSON Data */ = {
+			isa = PBXGroup;
+			children = (
+				180544F826CCAFAA00777697 /* Missions */,
+				180544F926CCAFB100777697 /* PhotoLists */,
+			);
+			path = "JSON Data";
+			sourceTree = "<group>";
+		};
+		180544F826CCAFAA00777697 /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		180544F926CCAFB100777697 /* PhotoLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoLists;
+			sourceTree = "<group>";
+		};
+		183CE64F26C200220064119A /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FFAFEC26C1C4DE00AA7767 /* MissionTests.swift */,
+				18FFAFE826C18AE600AA7767 /* PhotoManifestTests.swift */,
+				183CE65026C204E30064119A /* PhotoTests.swift */,
+				18FFAFEE26C1C51B00AA7767 /* ModelTestsHelper.swift */,
+				18FFAFEA26C18C4200AA7767 /* mission.json */,
+				183CE65226C2068B0064119A /* photos.json */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		18B848E726C9873C00C5718B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18B848E826C9876B00C5718B /* APIClient.swift */,
+				18841F8A26C9A3AA00E05B42 /* NetworkManager.swift */,
+				180544F226CC847900777697 /* NetworkManagerProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18BE865F26CAB2BC0005A04F /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				180544F026CC823E00777697 /* SearchViewModelTests.swift */,
+				180544F426CC880A00777697 /* MockNetworkManager.swift */,
+				180544F726CCAF9500777697 /* JSON Data */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		18BE866026CAB5440005A04F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				18BE866126CAB5550005A04F /* SearchView */,
+				18BE866226CAB63C0005A04F /* SearchDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		18BE866126CAB5550005A04F /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				18FFAFBF26C175CA00AA7767 /* SearchView.swift */,
+				18BE866326CAB6620005A04F /* SearchViewModel.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		18BE866226CAB63C0005A04F /* SearchDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				180544E526CC113600777697 /* SearchDetailView.swift */,
+				1882B07026CB37750099DF96 /* SearchDetailViewModel.swift */,
+			);
+			path = SearchDetailView;
+			sourceTree = "<group>";
+		};
 		18FFAFB126C175CA00AA7767 = {
 			isa = PBXGroup;
 			children = (
 				18FFAFBC26C175CA00AA7767 /* MarsRoverPhotoViewer */,
+				18FFAFDD26C1762100AA7767 /* MarsRoverPhotoViewerTests */,
 				18FFAFBB26C175CA00AA7767 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				18FFAFBA26C175CA00AA7767 /* MarsRoverPhotoViewer.app */,
+				18FFAFDC26C1762100AA7767 /* MarsRoverPhotoViewerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +224,11 @@
 			isa = PBXGroup;
 			children = (
 				18FFAFBD26C175CA00AA7767 /* MarsRoverPhotoViewerApp.swift */,
-				18FFAFBF26C175CA00AA7767 /* ContentView.swift */,
+				18FFAFCD26C175D900AA7767 /* Enums */,
+				18FFAFCC26C175D400AA7767 /* Models */,
+				18BE866026CAB5440005A04F /* Screens */,
+				18B848E726C9873C00C5718B /* Networking */,
+				180544F626CC8A2900777697 /* ThirdPartyUtils */,
 				18FFAFC126C175CB00AA7767 /* Assets.xcassets */,
 				18FFAFC626C175CB00AA7767 /* Info.plist */,
 				18FFAFC326C175CB00AA7767 /* Preview Content */,
@@ -67,6 +242,36 @@
 				18FFAFC426C175CB00AA7767 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18FFAFCC26C175D400AA7767 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18FFAFD226C175FD00AA7767 /* Mission.swift */,
+				18FFAFD426C1760300AA7767 /* PhotoManifest.swift */,
+				18FFAFE626C1897C00AA7767 /* PhotoList.swift */,
+				18FFAFD626C1760A00AA7767 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FFAFCD26C175D900AA7767 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				18FFAFCE26C175EB00AA7767 /* Rover.swift */,
+				18FFAFD026C175F300AA7767 /* CameraIdentifier.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		18FFAFDD26C1762100AA7767 /* MarsRoverPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BE865F26CAB2BC0005A04F /* ViewModelTests */,
+				183CE64F26C200220064119A /* ModelTests */,
+				18FFAFE026C1762100AA7767 /* Info.plist */,
+			);
+			path = MarsRoverPhotoViewerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +294,24 @@
 			productReference = 18FFAFBA26C175CA00AA7767 /* MarsRoverPhotoViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		18FFAFDB26C1762100AA7767 /* MarsRoverPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FFAFE326C1762100AA7767 /* Build configuration list for PBXNativeTarget "MarsRoverPhotoViewerTests" */;
+			buildPhases = (
+				18FFAFD826C1762100AA7767 /* Sources */,
+				18FFAFD926C1762100AA7767 /* Frameworks */,
+				18FFAFDA26C1762100AA7767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FFAFE226C1762100AA7767 /* PBXTargetDependency */,
+			);
+			name = MarsRoverPhotoViewerTests;
+			productName = MarsRoverPhotoViewerTests;
+			productReference = 18FFAFDC26C1762100AA7767 /* MarsRoverPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +323,11 @@
 				TargetAttributes = {
 					18FFAFB926C175CA00AA7767 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					18FFAFDB26C1762100AA7767 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+						TestTargetID = 18FFAFB926C175CA00AA7767;
 					};
 				};
 			};
@@ -117,6 +345,7 @@
 			projectRoot = "";
 			targets = (
 				18FFAFB926C175CA00AA7767 /* MarsRoverPhotoViewer */,
+				18FFAFDB26C1762100AA7767 /* MarsRoverPhotoViewerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +360,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18FFAFDA26C1762100AA7767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183CE65326C2068B0064119A /* photos.json in Resources */,
+				18FFAFEB26C18C4200AA7767 /* mission.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +376,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FFAFC026C175CA00AA7767 /* ContentView.swift in Sources */,
+				180544E926CC244400777697 /* AsyncImage.swift in Sources */,
+				18FFAFE726C1897C00AA7767 /* PhotoList.swift in Sources */,
+				180544ED26CC254600777697 /* ImageCache.swift in Sources */,
+				180544E626CC113600777697 /* SearchDetailView.swift in Sources */,
+				18FFAFD726C1760A00AA7767 /* Photo.swift in Sources */,
+				180544EB26CC252500777697 /* EnvironmentValues+ImageCache.swift in Sources */,
+				18FFAFD126C175F300AA7767 /* CameraIdentifier.swift in Sources */,
+				18B848E926C9876B00C5718B /* APIClient.swift in Sources */,
+				18841F8B26C9A3AA00E05B42 /* NetworkManager.swift in Sources */,
+				18FFAFD526C1760300AA7767 /* PhotoManifest.swift in Sources */,
+				180544F326CC847900777697 /* NetworkManagerProtocol.swift in Sources */,
+				18BE866426CAB6620005A04F /* SearchViewModel.swift in Sources */,
+				180544EF26CC257500777697 /* ImageLoader.swift in Sources */,
+				18FFAFC026C175CA00AA7767 /* SearchView.swift in Sources */,
 				18FFAFBE26C175CA00AA7767 /* MarsRoverPhotoViewerApp.swift in Sources */,
+				1882B07126CB37750099DF96 /* SearchDetailViewModel.swift in Sources */,
+				18FFAFD326C175FD00AA7767 /* Mission.swift in Sources */,
+				18FFAFCF26C175EB00AA7767 /* Rover.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FFAFD826C1762100AA7767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180544F526CC880A00777697 /* MockNetworkManager.swift in Sources */,
+				183CE65126C204E30064119A /* PhotoTests.swift in Sources */,
+				18FFAFED26C1C4DE00AA7767 /* MissionTests.swift in Sources */,
+				18FFAFEF26C1C51B00AA7767 /* ModelTestsHelper.swift in Sources */,
+				18FFAFE926C18AE600AA7767 /* PhotoManifestTests.swift in Sources */,
+				180544F126CC823E00777697 /* SearchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FFAFE226C1762100AA7767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FFAFB926C175CA00AA7767 /* MarsRoverPhotoViewer */;
+			targetProxy = 18FFAFE126C1762100AA7767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		18FFAFC726C175CB00AA7767 /* Debug */ = {
@@ -306,6 +581,49 @@
 			};
 			name = Release;
 		};
+		18FFAFE426C1762100AA7767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9P6GGP6YR;
+				INFOPLIST_FILE = MarsRoverPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaseshift.MarsRoverPhotoViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsRoverPhotoViewer.app/MarsRoverPhotoViewer";
+			};
+			name = Debug;
+		};
+		18FFAFE526C1762100AA7767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E9P6GGP6YR;
+				INFOPLIST_FILE = MarsRoverPhotoViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phaseshift.MarsRoverPhotoViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsRoverPhotoViewer.app/MarsRoverPhotoViewer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +641,15 @@
 			buildConfigurations = (
 				18FFAFCA26C175CB00AA7767 /* Debug */,
 				18FFAFCB26C175CB00AA7767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FFAFE326C1762100AA7767 /* Build configuration list for PBXNativeTarget "MarsRoverPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FFAFE426C1762100AA7767 /* Debug */,
+				18FFAFE526C1762100AA7767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
