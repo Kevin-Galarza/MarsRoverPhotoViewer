@@ -1,7 +1,7 @@
 # MarsRoverPhotoViewer-SwiftUI
 
 ## Overview
-The Mar Rover Photo Viewer is a GUI based client for iOS that can be used to search and view the data/images offered by NASA's public Mars Rovers Photos API. With the photo viewer users can select from the three rovers (Curiosity, Opportunity and Spirit), search by Earth date and filter the returned images by available camera options.
+The Mars Rover Photo Viewer is a GUI based client for iOS that can be used to search and view the data/images offered by NASA's public Mars Rovers Photos API. With the photo viewer users can select from the three rovers (Curiosity, Opportunity and Spirit), search by Earth date and filter the returned images by available camera options.
 
 ## Features
 - View photos from Curiosity, Opportunity and Spirit
