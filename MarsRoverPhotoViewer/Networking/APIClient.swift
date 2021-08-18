@@ -10,8 +10,7 @@ import Foundation
 final class APIClient {
     
     // REQUEST AND REPLACE PLACEHOLDER API KEY WITH ISSUED KEY FROM "https://api.nasa.gov".
-//    let apiKey = "DEMO_KEY"
-    let apiKey = "iVouPB7yL8yyubL8ppvVVVP1jiKHtYCE6MOaB2zc"
+    let apiKey = "DEMO_KEY"
     
     static let shared = APIClient()
     
